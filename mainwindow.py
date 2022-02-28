@@ -60,7 +60,7 @@ class MainWindow(QMainWindow):
                 pickle.dump(contacto, entrada)
             entrada.close()
 
-            time.sleep(3)
+            time.sleep(2.5)
 
     #mostrar tabla cada vez que se modifica la agenda
     def mostrarContactos(self):
