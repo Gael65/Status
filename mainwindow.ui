@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Agenda</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>530</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Añadir contacto</string>
+    </property>
+    <widget class="QLineEdit" name="lineEditCarrera">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>20</y>
+       <width>100</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>50</y>
+       <width>50</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Teléfono:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>20</y>
+       <width>47</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Carrera:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditCodigo">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>20</y>
+       <width>100</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditApellido">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>50</y>
+       <width>100</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditTelefono">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>50</y>
+       <width>100</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditNombre">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>100</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>20</y>
+       <width>40</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Código:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>47</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Apellido:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>47</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nombre:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonAgregar">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>50</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Agregar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>110</y>
+      <width>181</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Eliminar contacto</string>
+    </property>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>47</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Código:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditCodigoEliminar">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>30</y>
+       <width>100</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonEliminar">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>70</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Eliminar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>530</width>
+      <height>260</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Contactos</string>
+    </property>
+    <widget class="QTableWidget" name="tableWidgetContactos">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>510</width>
+       <height>230</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
